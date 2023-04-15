@@ -1,0 +1,87 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 22rem;
+    height: 6rem;
+    margin: 3rem 0;
+}
+
+img {
+    margin: 2rem 0 0.5rem 0;
+    width: 10rem;
+    height: 15rem;
+}
+
+input {
+    color:#0e63a3;
+    width: 20rem;
+    padding: 6px 6px;
+    border: solid 1px #0e63a3;
+    border-radius: 6px;
+}
+
+button {
+    color: #0e63a3;
+    background-color: white;
+    padding: 6px 6px;
+    width: 4rem;
+    border: solid 1px #0e63a3;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-list,
+.del-btn,
+.add-btn {
+    width: 6rem;
+    text-align: center;
+    transition: .6s all ease;
+}
+
+button:hover {
+    color: white;
+    background-color: #0e63a3;
+}
+
+.movie {
+    position: relative;
+    margin-bottom: 1rem;
+} 
+
+.movie button {
+    position: absolute;
+    bottom: 0;
+    width: 5rem;
+}
+
+.del-btn {
+    color: darkred;
+    border-color: darkred;
+}
+.del-btn:hover {
+    color: white;
+    background-color: darkred;
+}
+
+.movie h3, .movie h4 {
+    margin: 0;
+}
+
+.movie h4 {
+    margin-bottom: 3rem;
+}
